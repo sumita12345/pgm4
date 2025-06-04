@@ -22,6 +22,7 @@ class Student {
         System.out.println("Program: " + program);
         System.out.println("Semester: " + semester);
         System.out.println("Courses Registered:");
+        System.out.println("Courses Registered:");
         for (Course c : courses) {
             System.out.println("  - " + c.name);
         }
